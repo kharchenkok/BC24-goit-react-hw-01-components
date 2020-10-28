@@ -12,21 +12,20 @@
     margin-bottom: 10px;
     padding: 10px;
   }
-  .online {
-      background-color: green;
+  .status{
     width: 25px;
     height: 25px;
     border-radius: 50%;
     margin-right: 20px;
     margin-top: 15px;
   }
+  .online {
+      background-color: green;
+    
+  }
   .offline {
       background-color: red;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    margin-right: 20px;
-    margin-top: 15px;
+    
   }
   .avatar {
     margin-right: 20px;

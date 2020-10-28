@@ -7,11 +7,8 @@ const FriendListItem = ({ items }) => {
   const { avatar, name, isOnline } = items;
   return (
     <li className={style.item}>
-      {isOnline ? (
-        <span className={style.online}></span>
-      ) : (
-        <span className={style.offline}></span>
-      )}
+      <span
+        className={[style.status, isOnline ? style.online : style.offline].join(" ")}></span>
 
       <img className={style.avatar} src={avatar} alt={name} width="48" />
       <p className={style.name}>{name}</p>
