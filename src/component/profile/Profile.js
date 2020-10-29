@@ -1,5 +1,5 @@
 import React from "react";
-import UserStats from "./UserStats";
+import UserStats from "../userStats/UserStats";
 import PropTypes from "prop-types";
 
 // import UserDescription from '../userStats/UserStats';

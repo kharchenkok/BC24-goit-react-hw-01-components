@@ -1,0 +1,11 @@
+.label {
+    color: white;
+    display: block;
+  }
+  .item {
+    color: white;
+    width: 60px;
+  }
+  .percentage {
+    font-size: 20px;
+  }

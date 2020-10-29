@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Profile.module.css";
+import style from "./UserStats.module.css";
 import PropTypes from "prop-types";
 
 const UserStats = ({ props }) => {

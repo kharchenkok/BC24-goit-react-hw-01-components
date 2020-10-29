@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import style from "./FriendList.module.css";
+import style from "./FriendListItem.module.css";
 
-const FriendListItem = ({ items }) => {
-  const { avatar, name, isOnline } = items;
+const FriendListItem = ({ friend }) => {
+  const { avatar, name, isOnline } = friend;
   return (
     <li className={style.item}>
       <span
@@ -16,7 +16,7 @@ const FriendListItem = ({ items }) => {
   );
 };
 FriendListItem.propTypes = {
-  items: PropTypes.shape({
+  friend: PropTypes.shape({
     avatar: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     isOnline: PropTypes.bool.isRequired,

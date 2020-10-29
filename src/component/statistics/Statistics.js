@@ -1,8 +1,9 @@
 import React from "react";
-import StatisticsItems from "./StatisticsItems";
+
 import PropTypes from "prop-types";
 
 import style from "./Statistics.module.css";
+import StatisticsItems from "../statisticsItems/StatisticsItems";
 
 const Statistics = ({ title, stats }) => {
   // console.log(title);
